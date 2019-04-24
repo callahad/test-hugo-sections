@@ -1,0 +1,9 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+
+# Disable / clear a bunch of stuff so --debug output is as minimal as possible
+
+disableKinds = [ "RSS", "sitemap", "taxonomy", "taxonomyTerm", "404" ]
+
+[taxonomies]
